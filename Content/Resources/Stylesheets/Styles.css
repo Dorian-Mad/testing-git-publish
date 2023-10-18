@@ -1,0 +1,164 @@
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+/*<meta />*/
+
+body
+{
+	font-family: var(--FontFamily);
+	background-color: var(--Lightest);
+}
+
+h1
+{
+	font-weight: bold;
+	font-size: 24.0pt;
+	color: var(--Dark);
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 18.0pt;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+
+h5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+
+h6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+h7
+{
+	mc-heading-level: 7;
+}
+
+h8
+{
+	mc-heading-level: 8;
+}
+
+h9
+{
+	mc-heading-level: 9;
+}
+
+p
+{
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	color: var(--Dark);
+}
+
+ol,
+ul,
+dl
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+a.Popup
+{
+	
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: #006600;
+}
+
+MadCap|expandingBody
+{
+	color: #777777;
+	font-style: italic;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+	color: #006600;
+}
+
+@media print
+{
+	h1
+	{
+		mc-auto-number-format: 'h1';
+		column-break-before: always;
+	}
+
+	h2
+	{
+		mc-auto-number-format: 'h2';
+	}
+
+	h3
+	{
+		mc-auto-number-format: 'inherit';
+	}
+
+	h4
+	{
+		mc-auto-number-format: 'h4';
+	}
+
+	h5
+	{
+		mc-auto-number-format: 'h5';
+	}
+
+	h6
+	{
+		mc-auto-number-format: 'h6';
+	}
+
+	h7
+	{
+		mc-auto-number-format: 'h7';
+	}
+
+	h8
+	{
+		mc-auto-number-format: 'inherit';
+	}
+
+	tr
+	{
+		
+	}
+
+	tr.test
+	{
+		page-break-before: always;
+	}
+}
+
